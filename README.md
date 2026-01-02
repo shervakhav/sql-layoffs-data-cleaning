@@ -4,7 +4,7 @@ SQL data cleaning project using a global tech layoffs dataset (MySQL)
 This project showcases a complete **data cleaning workflow in SQL** using a global tech layoffs dataset.  
 The goal is to take a raw `layoffs` table and transform it into a cleaned version that is ready for analysis.
 
-## 🧱 Dataset & Schema
+## Dataset & Schema
 
 - Original table: `layoffs`
 - Staging tables:  
@@ -13,7 +13,7 @@ The goal is to take a raw `layoffs` table and transform it into a cleaned versio
 
 The script is written for **MySQL** and was tested in **MySQL Workbench**.
 
-## 🔄 Data Cleaning Steps
+## Data Cleaning Steps
 
 The `data_cleaning.sql` script performs the following tasks:
 
@@ -47,7 +47,7 @@ The `data_cleaning.sql` script performs the following tasks:
 7. **Final cleanup**
    - Drops the helper `row_num` column once duplicates are removed.
 
-## 🧠 SQL Concepts Used
+## SQL Concepts Used
 
 This project demonstrates:
 
@@ -58,7 +58,7 @@ This project demonstrates:
 - **Date parsing & type conversion** (`STR_TO_DATE`, `ALTER TABLE ... MODIFY`)
 - Best practice of using **staging tables** for safe data cleaning
 
-## ▶️ How to Run This Script
+## How to Run This Script
 
 1. Have MySQL (or MySQL Workbench) installed.
 2. Create and populate the original `layoffs` table with your raw dataset.
